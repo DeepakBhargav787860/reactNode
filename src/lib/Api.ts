@@ -10,8 +10,8 @@ import axios from 'axios';
 
 
 
-  const url="https://nodejsbackend-mbjy.onrender.com"  
-  // const url="http://localhost:5000"
+   const url="https://nodejsbackend-mbjy.onrender.com"  
+  //  const url="http://localhost:5000"
 
 
 // src/lib/Api.ts or wherever you keep API utilities
