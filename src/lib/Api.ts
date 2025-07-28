@@ -10,7 +10,7 @@ import axios from 'axios';
 
 
 
-   const url="https://nodejsbackend-mbjy.onrender.com"  
+   const url="https://nodejsbackend-1-revc.onrender.com"  
   //  const url="http://localhost:5000"
 
 
