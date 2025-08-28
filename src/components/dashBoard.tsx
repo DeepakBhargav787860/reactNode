@@ -91,7 +91,7 @@ export default function UserForm() {
         <form onSubmit={form.onSubmit(handleSubmit)}>
           <Stack>
             <TextInput
-              label="Nameeeee"
+              label="Name"
               placeholder="Your name"
               {...form.getInputProps("name")}
             />
