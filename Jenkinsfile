@@ -23,6 +23,7 @@ pipeline{
               sh """
              npm install
              npm run build
+             sudo cd ${WORKSPACE}
              sudo cp -rf /dist /var/www/html/
              sudo systemctl reload nginx
              sudo nginx -t
