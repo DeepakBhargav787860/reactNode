@@ -10,6 +10,7 @@ pipeline{
     stage('checkout'){
       steps{
         echo "checkout the code for ${env.BRANCH_NAME}"
+         checkout scm 
         //git branch :'${env.BRANCH_NAME}' ,url:'https://github.com/DeepakBhargav787860/socketApplication.git'
         echo "checkout finished"
       }
