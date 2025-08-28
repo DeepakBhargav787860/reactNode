@@ -1,6 +1,12 @@
 pipeline{
   agent any
   stages {
+     stage('Clean Workspace') {
+      steps {
+        echo "Cleaning the workspace..."
+        deleteDir()  // 💣 Deletes everything inside the workspace folder
+      }
+    }
     stage('checkout'){
       steps{
         echo "checkout the code for ${env.BRANCH_NAME}"
