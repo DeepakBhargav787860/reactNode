@@ -4,7 +4,7 @@ pipeline{
      stage('Clean Workspace') {
       steps {
         echo "Cleaning the workspace..."
-        deleteDir()  // 💣 Deletes everything inside the workspace folder
+        deleteDir()  //  Deletes everything inside the workspace folder
       }
     }
     stage('checkout'){
@@ -30,7 +30,7 @@ pipeline{
               sh """
              npm install
              npm run build
-              # ✅ Use absolute path, no need to cd
+              # Use absolute path, no need to cd
               sudo cp -rf ${WORKSPACE}/dist /var/www/html/
              sudo systemctl reload nginx
              sudo nginx -t
