@@ -96,7 +96,7 @@ export default function UserForm() {
               {...form.getInputProps("name")}
             />
             <TextInput
-              label="Email"
+              label="EmailSS"
               placeholder="your@email.com"
               {...form.getInputProps("email")}
             />
