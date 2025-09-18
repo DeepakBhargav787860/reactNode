@@ -16,4 +16,3 @@ CMD ["nginx", "-g", "daemon off;"]
 #npm i react-transliterate --legacy-peer-deps
 #npm install --legacy-peer-deps
 
-#1.25.1-alpine-slim
