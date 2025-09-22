@@ -12,7 +12,7 @@ import axios from 'axios';
 
   // const url="https://nodejsbackend-1-revc.onrender.com"  
   //  const url="http://localhost:5000"
-  const url="http://34.131.162.30:5000"
+  const url="http://34.36.182.252:5200"
 
 // src/lib/Api.ts or wherever you keep API utilities
 
